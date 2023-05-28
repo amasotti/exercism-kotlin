@@ -11,7 +11,7 @@ learn new concepts, and connect with the community of fellow learners.
 
 ## What Will You Find Here?
 
-Nothing exceptionally interesting, to be honest. This repository contains my solutions / attempts
+Nothing fascinating, to be honest. This repository contains my solutions / attempts
 to various coding challenges from Exercism from the Kotlin track (I have other tracks going on as well)
 
 It's more the typical repository-for-myself kind of thing, but if you're interested in seeing how I solved
