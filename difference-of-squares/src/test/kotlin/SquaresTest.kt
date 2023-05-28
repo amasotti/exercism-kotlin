@@ -1,52 +1,51 @@
 import org.junit.Test
-import org.junit.Ignore
 import kotlin.test.assertEquals
 
 class SquaresTest {
 
     @Test
     fun squareOfSum1() {
-        assertEquals(1, Squares(1).squareOfSum())
+        assertEquals(1, Squares2(1).squareOfSum())
     }
 
     @Test
     fun squareOfSum5() {
-        assertEquals(225, Squares(5).squareOfSum())
+        assertEquals(225, Squares2(5).squareOfSum())
     }
 
     @Test
     fun squareOfSum100() {
-        assertEquals(25502500, Squares(100).squareOfSum())
+        assertEquals(25502500, Squares2(100).squareOfSum())
     }
 
     @Test
     fun sumOfSquares1() {
-        assertEquals(1, Squares(1).sumOfSquares())
+        assertEquals(1, Squares2(1).sumOfSquares())
     }
 
     @Test
     fun sumOfSquares5() {
-        assertEquals(55, Squares(5).sumOfSquares())
+        assertEquals(55, Squares2(5).sumOfSquares())
     }
 
     @Test
     fun sumOfSquares100() {
-        assertEquals(338350, Squares(100).sumOfSquares())
+        assertEquals(338350, Squares2(100).sumOfSquares())
     }
 
     @Test
     fun differenceOfSquares1() {
-        assertEquals(0, Squares(1).difference())
+        assertEquals(0, Squares2(1).difference())
     }
 
     @Test
     fun differenceOfSquares5() {
-        assertEquals(170, Squares(5).difference())
+        assertEquals(170, Squares2(5).difference())
     }
 
     @Test
     fun differenceOfSquares100() {
-        assertEquals(25164150, Squares(100).difference())
+        assertEquals(25164150, Squares2(100).difference())
     }
 
 }

@@ -1,11 +1,13 @@
+/**
+ * Functional approach + optimization through Arithmetic Sequences
+ */
 class Squares(private val upTo: Int) {
-
-    fun sumOfSquares(): Int {
-        return (1..upTo).map { it * it }.sum()
+    fun squareOfSum(): Int {
+        return upTo.times(upTo + 1).div(2).let { it * it }
     }
 
-    fun squareOfSum(): Int {
-        return (1..upTo).sum().let { it * it }
+    fun sumOfSquares(): Int {
+        return upTo.times(upTo + 1).times(2 * upTo + 1).div(6)
     }
 
     fun difference(): Int {
