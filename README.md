@@ -22,11 +22,12 @@ some of the challenges, feel free to take a look.
 ### Easy
 
 1. [Hello World](./hello-world/HELP.md)  ⸱  [[Solution]](./hello-world/src/main/kotlin) ⸱ [[Tests]](./hello-world/src/test/kotlin)
-2. [Two-fer](./Two-fer/HELP.md)  ⸱  [[Solution]](./two-fer/src/main/kotlin) ⸱ [[Tests]](./two-fer/src/test/kotlin)
+2. [Two-fer](./two-fer/HELP.md)  ⸱  [[Solution]](./two-fer/src/main/kotlin) ⸱ [[Tests]](./two-fer/src/test/kotlin)
 3. [Hamming](./hamming/HELP.md)  ⸱  [[Solution]](./hamming/src/main/kotlin) ⸱ [[Tests]](./hamming/src/test/kotlin)
 4. [Gigasecond](./gigasecond/HELP.md)  ⸱  [[Solution]](./gigasecond/src/main/kotlin) ⸱ [[Tests]](./gigasecond/src/test/kotlin)
 5. [Scrabble Score](./scrabble-score/HELP.md)  ⸱  [[Solution]](./scrabble-score/src/main/kotlin) ⸱ [[Tests]](./scrabble-score/src/test/kotlin)
 6. [Difference of Squares](./difference-of-squares/HELP.md)  ⸱  [[Solution]](./difference-of-squares/src/main/kotlin) ⸱ [[Tests]](./difference-of-squares/src/test/kotlin)
+7. [Secret-Handshake](./secret-handshake/HELP.md)  ⸱  [[Solution]](./secret-handshake/src/main/kotlin) ⸱ [[Tests]](./secret-handshake/src/test/kotlin)
 
 ### Medium
 
