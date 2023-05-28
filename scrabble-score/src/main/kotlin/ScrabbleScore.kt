@@ -1,6 +1,6 @@
 object ScrabbleScore {
 
-    private val letterScore  = mapOf(
+    private val letterScore = mapOf(
         "aeioulnrst" to 1,
         "dg" to 2,
         "bcmp" to 3,
@@ -11,15 +11,11 @@ object ScrabbleScore {
     )
 
     fun scoreWord(word: String): Int {
-        var score = 0
-
-        for (letter in word.lowercase()) {
-            for ((letters, value) in letterScore) {
-                if (letter in letters) {
-                    score += value
-                }
+        return word.lowercase()
+            .sumOf {
+                letterScore.entries
+                    .find { entry -> entry.key.contains(it) }?.value ?: 0
             }
-        }
-        return score
     }
 }
+
