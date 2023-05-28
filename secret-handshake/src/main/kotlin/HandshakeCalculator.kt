@@ -1,9 +1,4 @@
-enum class Signal {
-    WINK,
-    DOUBLE_BLINK,
-    CLOSE_YOUR_EYES,
-    JUMP
-}
+import Signal.*
 
 object HandshakeCalculator {
     fun calculateHandshake(number: Int): List<Signal> {
@@ -18,10 +13,10 @@ object HandshakeCalculator {
         lastFiveDigits.reversed().forEachIndexed { index, digit ->
             if (digit == '1') {
                 when (index) {
-                    0 -> secretHandshake.add(Signal.WINK)
-                    1 -> secretHandshake.add(Signal.DOUBLE_BLINK)
-                    2 -> secretHandshake.add(Signal.CLOSE_YOUR_EYES)
-                    3 -> secretHandshake.add(Signal.JUMP)
+                    0 -> secretHandshake.add(WINK)
+                    1 -> secretHandshake.add(DOUBLE_BLINK)
+                    2 -> secretHandshake.add(CLOSE_YOUR_EYES)
+                    3 -> secretHandshake.add(JUMP)
                     4 -> secretHandshake.reverse()
                 }
             }
