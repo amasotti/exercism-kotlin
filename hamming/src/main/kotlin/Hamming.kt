@@ -4,6 +4,8 @@ object Hamming {
 
         require(leftStrand.length == rightStrand.length) { "left and right strands must be of equal length" }
 
+        val test = leftStrand.zip(rightStrand)
+
         return leftStrand
             .zip(rightStrand)
             .count { it.first != it.second }
