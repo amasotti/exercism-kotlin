@@ -1,3 +1,5 @@
+import kotlin.math.log
+
 class Matrix(private val matrixAsString: String) {
 
     /**
@@ -39,9 +41,10 @@ class Matrix(private val matrixAsString: String) {
 
     // Second attempt: Kotlin idiomatic / functional programming style
     private fun List<List<Int>>.transpose(): List<List<Int>> {
+
         return if (isEmpty()) emptyList()
-        else first().indices.map { col ->
-            map { row -> row[col] }
+        else first().indices.map { col -> // for each column / row (assuming the matrix is rectangular)
+            map { row -> row[col]} // map each row to the value in the column
         }
     }
 
