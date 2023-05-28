@@ -1,19 +1,25 @@
 object ScrabbleScore {
 
-    fun scoreLetter(c: Char): Int {
-        return when (c) {
-            'a', 'e', 'i', 'o', 'u', 'l', 'n', 'r', 's', 't' -> 1
-            'd', 'g' -> 2
-            'b', 'c', 'm', 'p' -> 3
-            'f', 'h', 'v', 'w', 'y' -> 4
-            'k' -> 5
-            'j', 'x' -> 8
-            'q', 'z' -> 10
-            else -> 0
-        }
-    }
+    private val letterScore  = mapOf(
+        "aeioulnrst" to 1,
+        "dg" to 2,
+        "bcmp" to 3,
+        "fhvwy" to 4,
+        "k" to 5,
+        "jx" to 8,
+        "qz" to 10
+    )
 
     fun scoreWord(word: String): Int {
-        return word.lowercase().sumOf { scoreLetter(it) }
+        var score = 0
+
+        for (letter in word.lowercase()) {
+            for ((letters, value) in letterScore) {
+                if (letter in letters) {
+                    score += value
+                }
+            }
+        }
+        return score
     }
 }
