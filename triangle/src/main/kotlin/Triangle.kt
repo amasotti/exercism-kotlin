@@ -14,30 +14,27 @@ class Triangle<out T : Number>(val a: T, val b: T, val c: T) {
     }
 
     private fun requireSidesGreaterThanZero() {
-        check(sides.all { it.toDouble() > 0 }) { "All sides must be greater than 0" }
+        require(sides.all { it.toDouble() > 0 }) { "All sides must be greater than 0" }
     }
 
     private fun requireNonDegeneratedTriangle() {
-        check(sides.all { it.toDouble() <= sides.sumOf { it.toDouble() } - it.toDouble() }) { "Triangle inequality violation" }
+        require(sides.all { it.toDouble() <= sides.sumOf { it.toDouble() } - it.toDouble() }) { "Triangle inequality violation" }
     }
 
-    /**
-     * A triangle has n distinct sides if the number of distinct sides is n
-     */
-    private infix fun List<Number>.hasNDistinctSides(n: Int): Boolean = this.distinct().size == n
+    private fun List<Number>.hasNDistinctSides(n: Int): Boolean = this.distinct().size == n
 
     /**
      * A triangle is equilateral if all sides are equal
      */
-    val isEquilateral: Boolean = sides hasNDistinctSides(1)
+    val isEquilateral: Boolean = sides.hasNDistinctSides(1)
 
     /**
      * A triangle is isosceles if two sides are equal
      */
-    val isIsosceles: Boolean = sides hasNDistinctSides(2)
+    val isIsosceles: Boolean = sides.hasNDistinctSides(2) || isEquilateral
 
     /**
      * A triangle is scalene if all sides are different
      */
-    val isScalene: Boolean = sides hasNDistinctSides(3)
+    val isScalene: Boolean = sides.hasNDistinctSides(3)
 }
