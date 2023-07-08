@@ -21,17 +21,20 @@ some of the challenges, feel free to take a look.
 
 ### Easy
 
-1. [Hello World](./hello-world/HELP.md)  ⸱  [[Solution]](./hello-world/src/main/kotlin) ⸱ [[Tests]](./hello-world/src/test/kotlin)
-2. [Two-fer](./two-fer/HELP.md)  ⸱  [[Solution]](./two-fer/src/main/kotlin) ⸱ [[Tests]](./two-fer/src/test/kotlin)
-3. [Hamming](./hamming/HELP.md)  ⸱  [[Solution]](./hamming/src/main/kotlin) ⸱ [[Tests]](./hamming/src/test/kotlin)
-4. [Gigasecond](./gigasecond/HELP.md)  ⸱  [[Solution]](./gigasecond/src/main/kotlin) ⸱ [[Tests]](./gigasecond/src/test/kotlin)
-5. [Scrabble Score](./scrabble-score/HELP.md)  ⸱  [[Solution]](./scrabble-score/src/main/kotlin) ⸱ [[Tests]](./scrabble-score/src/test/kotlin)
-6. [Difference of Squares](./difference-of-squares/HELP.md)  ⸱  [[Solution]](./difference-of-squares/src/main/kotlin) ⸱ [[Tests]](./difference-of-squares/src/test/kotlin)
-7. [Secret-Handshake](./secret-handshake/HELP.md)  ⸱  [[Solution]](./secret-handshake/src/main/kotlin) ⸱ [[Tests]](./secret-handshake/src/test/kotlin)
+1. [Hello World](./hello-world/README.md)  ⸱  [[Solution]](./hello-world/src/main/kotlin) ⸱ [[Tests]](./hello-world/src/test/kotlin)
+2. [Two-fer](./two-fer/README.md)  ⸱  [[Solution]](./two-fer/src/main/kotlin) ⸱ [[Tests]](./two-fer/src/test/kotlin)
+3. [Hamming](./hamming/README.md)  ⸱  [[Solution]](./hamming/src/main/kotlin) ⸱ [[Tests]](./hamming/src/test/kotlin)
+4. [Gigasecond](./gigasecond/README.md)  ⸱  [[Solution]](./gigasecond/src/main/kotlin) ⸱ [[Tests]](./gigasecond/src/test/kotlin)
+5. [Scrabble Score](./scrabble-score/README.md)  ⸱  [[Solution]](./scrabble-score/src/main/kotlin) ⸱ [[Tests]](./scrabble-score/src/test/kotlin)
+6. [Difference of Squares](./difference-of-squares/README.md)  ⸱  [[Solution]](./difference-of-squares/src/main/kotlin) ⸱ [[Tests]](./difference-of-squares/src/test/kotlin)
+7. [Secret-Handshake](./secret-handshake/README.md)  ⸱  [[Solution]](./secret-handshake/src/main/kotlin) ⸱ [[Tests]](./secret-handshake/src/test/kotlin)
+8. [Triangle](./triangle/README.md)  ⸱  [[Solution]](./triangle/src/main/kotlin) ⸱ [[Tests]](./triangle/src/test/kotlin)
+9. [Flatten Array](./flatten-array/README.md)  ⸱  [[Solution]](./flatten-array/src/main/kotlin) ⸱ [[Tests]](./flatten-array/src/test/kotlin)
 
 ### Medium
 
-1. [Matrix](./matrix/HELP.md)  ⸱  [[Solution]](./matrix/src/main/kotlin) ⸱ [[Tests]](./matrix/src/test/kotlin)
+1. [Matrix](./matrix/README.md)  ⸱  [[Solution]](./matrix/src/main/kotlin) ⸱ [[Tests]](./matrix/src/test/kotlin)
+2. [Saddle Points](./saddle-points/README.md)  ⸱  [[Solution]](./saddle-points/src/main/kotlin) ⸱ [[Tests]](./saddle-points/src/test/kotlin)
 
 
 
