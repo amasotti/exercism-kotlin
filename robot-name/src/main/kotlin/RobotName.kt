@@ -1,3 +1,5 @@
+import java.lang.StringBuilder
+
 class Robot {
 
     var name : String = generateUniqueName()
@@ -21,9 +23,10 @@ class Robot {
 
 
         private fun generateRandomName(): String {
-            val letters = ('A'..'Z').random().toString() + ('A'..'Z').random().toString()
-            val numbers = ( 0..9).random().toString() + (0..9).random().toString() + (0..9).random().toString()
-            return letters + numbers
+            return buildString {
+                repeat(2) { append(('A'..'Z').random()) }
+                repeat(3) { append((0..9).random()) }
+            }
         }
 
     }
