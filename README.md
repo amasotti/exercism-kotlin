@@ -30,7 +30,7 @@ some of the challenges, feel free to take a look.
 7. [Secret-Handshake](./secret-handshake/README.md)  ⸱  [[Solution]](./secret-handshake/src/main/kotlin) ⸱ [[Tests]](./secret-handshake/src/test/kotlin)
 8. [Triangle](./triangle/README.md)  ⸱  [[Solution]](./triangle/src/main/kotlin) ⸱ [[Tests]](./triangle/src/test/kotlin)
 9. [Flatten Array](./flatten-array/README.md)  ⸱  [[Solution]](./flatten-array/src/main/kotlin) ⸱ [[Tests]](./flatten-array/src/test/kotlin)
-
+10. [Word Count](./word-count/README.md)  ⸱  [[Solution]](./word-count/src/main/kotlin) ⸱ [[Tests]](./word-count/src/test/kotlin)
 ### Medium
 
 1. [Matrix](./matrix/README.md)  ⸱  [[Solution]](./matrix/src/main/kotlin) ⸱ [[Tests]](./matrix/src/test/kotlin)
