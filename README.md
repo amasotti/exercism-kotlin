@@ -31,6 +31,9 @@ some of the challenges, feel free to take a look.
 8. [Triangle](./triangle/README.md)  ⸱  [[Solution]](./triangle/src/main/kotlin) ⸱ [[Tests]](./triangle/src/test/kotlin)
 9. [Flatten Array](./flatten-array/README.md)  ⸱  [[Solution]](./flatten-array/src/main/kotlin) ⸱ [[Tests]](./flatten-array/src/test/kotlin)
 10. [Word Count](./word-count/README.md)  ⸱  [[Solution]](./word-count/src/main/kotlin) ⸱ [[Tests]](./word-count/src/test/kotlin)
+11. [Pangram Checker](./pangram/README.md)  ⸱  [[Solution]](./pangram/src/main/kotlin) ⸱ [[Tests]](./pangram/src/test/kotlin)
+
+
 ### Medium
 
 1. [Matrix](./matrix/README.md)  ⸱  [[Solution]](./matrix/src/main/kotlin) ⸱ [[Tests]](./matrix/src/test/kotlin)
