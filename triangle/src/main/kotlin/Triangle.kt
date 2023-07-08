@@ -18,7 +18,7 @@ class Triangle<out T : Number>(val a: T, val b: T, val c: T) {
     }
 
     private fun requireNonDegeneratedTriangle() {
-        require(sides.all { it.toDouble() <= sides.sumOf { it.toDouble() } - it.toDouble() }) { "Triangle inequality violation" }
+        require(sides.all { it.toDouble() <= this.sides.sumOf { it.toDouble() } - it.toDouble() }) { "Triangle inequality violation" }
     }
 
     private fun List<Number>.hasNDistinctSides(n: Int): Boolean = this.distinct().size == n
