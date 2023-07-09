@@ -19,51 +19,44 @@ class Deque<T>: Dequeable<T> {
     // Add element at the end of the Deque
     override fun push(value: T) {
         val node = ListNode(value)
-        if (tail == null) {
-            head = node
-        } else {
-            tail?.next = node
-            node.prev = tail
-        }
+
+        tail?.next = node
+        node.prev = tail
         tail = node
+
+        if (head == null) head = node
     }
 
     // Remove element from the end of the Deque
     override fun pop(): T? {
         val node = tail?.value
 
-        if (tail?.prev == null) {
-            head = null
-            tail = null
-        } else {
-            tail = tail?.prev
-            tail?.next = null
-        }
+        tail = tail?.prev
+        tail?.next = null
+        if (tail == null) head = null
+
         return node
     }
 
     // Add element at the beginning of the Deque
     override fun unshift(value: T) {
         val node = ListNode(value)
-        if (head == null) {
-            tail = node
-        } else {
-            head?.prev = node
-            node.next = head
-        }
+
+        node.next = head
+        head?.prev = node
         head = node
+        // If the tail is null (empty deque), make the new node the tail
+        if (tail == null) tail = node
     }
 
     // Remove element from the beginning of the Deque
     override fun shift(): T? {
         val node = head?.value
-        if (head?.next !== null) {
-            head = head?.next
-            head?.prev = null
-        } else {
-            head = null
-            tail = null
-        }
+        head = head?.next
+        head?.prev = null
+        // If head is null (empty deque), also set tail to null
+        if (head == null) tail = null
+
         return node
     }
 }
