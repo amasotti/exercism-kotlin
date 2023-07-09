@@ -2,7 +2,7 @@ data class MatrixCoordinate(val row: Int, val col: Int)
 
 class Matrix(private val matrix: List<List<Int>>) {
 
-    val saddlePoints: Set<MatrixCoordinate> = lazy { findSaddlePoints() }.value
+    val saddlePoints: Set<MatrixCoordinate> by lazy { findSaddlePoints() }
 
     /**
      * Utility function to transpose a matrix (same as in Matrix exercise)
