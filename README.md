@@ -34,11 +34,15 @@ some of the challenges, feel free to take a look.
 11. [Pangram Checker](./pangram/README.md)  ⸱  [[Solution]](./pangram/src/main/kotlin) ⸱ [[Tests]](./pangram/src/test/kotlin)
 12. [Rotational Cipher](./rotational-cipher/README.md)  ⸱  [[Solution]](./rotational-cipher/src/main/kotlin) ⸱ [[Tests]](./rotational-cipher/src/test/kotlin)
 
+
+
+
 ### Medium
 
 1. [Matrix](./matrix/README.md)  ⸱  [[Solution]](./matrix/src/main/kotlin) ⸱ [[Tests]](./matrix/src/test/kotlin)
 2. [Saddle Points](./saddle-points/README.md)  ⸱  [[Solution]](./saddle-points/src/main/kotlin) ⸱ [[Tests]](./saddle-points/src/test/kotlin)
 3. [Robot Name](./robot-name/README.md)  ⸱  [[Solution]](./robot-name/src/main/kotlin) ⸱ [[Tests]](./robot-name/src/test/kotlin)
+4. [Bank Account](./bank-account/README.md)  ⸱  [[Solution]](./bank-account/src/main/kotlin) ⸱ [[Tests]](./bank-account/src/test/kotlin)
 
 
 ## Links
