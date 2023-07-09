@@ -43,7 +43,7 @@ some of the challenges, feel free to take a look.
 2. [Saddle Points](./saddle-points/README.md)  ⸱  [[Solution]](./saddle-points/src/main/kotlin) ⸱ [[Tests]](./saddle-points/src/test/kotlin)
 3. [Robot Name](./robot-name/README.md)  ⸱  [[Solution]](./robot-name/src/main/kotlin) ⸱ [[Tests]](./robot-name/src/test/kotlin)
 4. [Bank Account](./bank-account/README.md)  ⸱  [[Solution]](./bank-account/src/main/kotlin) ⸱ [[Tests]](./bank-account/src/test/kotlin)
-
+5. [Linked list](./linked-list/README.md)  ⸱  [[Solution]](./linked-list/src/main/kotlin) ⸱ [[Tests]](./linked-list/src/test/kotlin)
 
 ## Links
 
