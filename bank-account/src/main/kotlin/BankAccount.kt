@@ -1,16 +1,16 @@
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock
 
-class BankAccount {
+/**
+ * The status of the account (open or closed).
+ */
+sealed class Status {
+    object Open : Status()
+    object Closed : Status()
+    object Frozen : Status()
+}
 
-    /**
-     * The status of the account (open or closed).
-     */
-    sealed class Status {
-        object Open : Status()
-        object Closed : Status()
-        object Frozen : Status()
-    }
+class BankAccount {
 
     // Properties
 
@@ -29,6 +29,7 @@ class BankAccount {
                     return field
                 }
         }
+        private set
 
     /**
      * Adjusts the balance of the account by the given amount.
