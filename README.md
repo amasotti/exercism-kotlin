@@ -34,7 +34,7 @@ some of the challenges, feel free to take a look.
 11. [Pangram Checker](./pangram/README.md)  ⸱  [[Solution]](./pangram/src/main/kotlin) ⸱ [[Tests]](./pangram/src/test/kotlin)
 12. [Rotational Cipher](./rotational-cipher/README.md)  ⸱  [[Solution]](./rotational-cipher/src/main/kotlin) ⸱ [[Tests]](./rotational-cipher/src/test/kotlin)
 13. [Bob](./bob/README.md)  ⸱  [[Solution]](./bob/src/main/kotlin) ⸱ [[Tests]](./bob/src/test/kotlin)
-
+14. [Raindrops](./raindrops/README.md)  ⸱  [[Solution]](./raindrops/src/main/kotlin) ⸱ [[Tests]](./raindrops/src/test/kotlin)
 
 
 ### Medium
