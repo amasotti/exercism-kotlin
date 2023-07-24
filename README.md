@@ -33,7 +33,7 @@ some of the challenges, feel free to take a look.
 10. [Word Count](./word-count/README.md)  ⸱  [[Solution]](./word-count/src/main/kotlin) ⸱ [[Tests]](./word-count/src/test/kotlin)
 11. [Pangram Checker](./pangram/README.md)  ⸱  [[Solution]](./pangram/src/main/kotlin) ⸱ [[Tests]](./pangram/src/test/kotlin)
 12. [Rotational Cipher](./rotational-cipher/README.md)  ⸱  [[Solution]](./rotational-cipher/src/main/kotlin) ⸱ [[Tests]](./rotational-cipher/src/test/kotlin)
-
+13. [Bob](./bob/README.md)  ⸱  [[Solution]](./bob/src/main/kotlin) ⸱ [[Tests]](./bob/src/test/kotlin)
 
 
 
