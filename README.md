@@ -44,6 +44,8 @@ some of the challenges, feel free to take a look.
 3. [Robot Name](./robot-name/README.md)  ⸱  [[Solution]](./robot-name/src/main/kotlin) ⸱ [[Tests]](./robot-name/src/test/kotlin)
 4. [Bank Account](./bank-account/README.md)  ⸱  [[Solution]](./bank-account/src/main/kotlin) ⸱ [[Tests]](./bank-account/src/test/kotlin)
 5. [Linked list](./linked-list/README.md)  ⸱  [[Solution]](./linked-list/src/main/kotlin) ⸱ [[Tests]](./linked-list/src/test/kotlin)
+6. [Pig-Latin](./pig-latin/README.md)  ⸱  [[Solution]](./pig-latin/src/main/kotlin) ⸱ [[Tests]](./pig-latin/src/test/kotlin)
+
 
 ## Links
 
