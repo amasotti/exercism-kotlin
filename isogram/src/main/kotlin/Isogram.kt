@@ -1,6 +1,7 @@
 object Isogram {
 
     fun isIsogram(input: String): Boolean {
-        TODO("Implement this function to complete the task")
+        val letters = input.lowercase().filter(Char::isLetterOrDigit)
+        return letters.toSet().size == letters.length
     }
 }
