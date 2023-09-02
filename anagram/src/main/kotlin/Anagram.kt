@@ -10,6 +10,20 @@ class Anagram(private val base : String) {
     }
 
     private fun isAnagram(word: String): Boolean {
+        if (word.length != base.length) return false
+        if (word.toLowerCase() == base.toLowerCase()) return false
+
+        val baseCharMap = base.toLowerCase().groupingBy { it }.eachCount()
+        val wordCharMap = word.toLowerCase().groupingBy { it }.eachCount()
+
+        return baseCharMap == wordCharMap
+    }
+
+    /**
+     * My original version but not passing the tests on exercism
+     * because of a Timeout
+     */
+    private fun isAnagramAlternative(word: String): Boolean {
         // If the length is different, it's not an anagram
         if (word.length != base.length) return false
 
@@ -18,9 +32,7 @@ class Anagram(private val base : String) {
 
 
         // If the word has the same letters as the base, it's an anagram
-        return base
-            .measureDistanceFrom(word)
-            .isZero()
+        return base.measureDistanceFrom(word) == 0
     }
 
     /* -------------------- EXTENSIONS -------------------- */
@@ -38,10 +50,5 @@ class Anagram(private val base : String) {
             .map { (letter, count) -> (count - (wordCounts[letter] ?: 0)).absoluteValue }
             .sum()
     }
-
-    /**
-     * Just a more human-readable check for zero
-     */
-    private fun Int.isZero() = this == 0
 
 }
