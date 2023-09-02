@@ -36,7 +36,7 @@ some of the challenges, feel free to take a look.
 13. [Bob](./bob/README.md)  ⸱  [[Solution]](./bob/src/main/kotlin) ⸱ [[Tests]](./bob/src/test/kotlin)
 14. [Raindrops](./raindrops/README.md)  ⸱  [[Solution]](./raindrops/src/main/kotlin) ⸱ [[Tests]](./raindrops/src/test/kotlin)
 15. [Isogram](./isogram/README.md)  ⸱  [[Solution]](./isogram/src/main/kotlin) ⸱ [[Tests]](./isogram/src/test/kotlin)
-16. [Anagram](./anagram/README.md)  ⸱  [[Solution]](./anagram/src/main/kotlin) ⸱ [[Tests]](./anagram/src/test/kotlin)
+16. [Resister Color](./resistor-color/README.md)  ⸱  [[Solution]](./resistor-color/src/main/kotlin) ⸱ [[Tests]](./resistor-color/src/test/kotlin)
 
 
 
@@ -48,6 +48,7 @@ some of the challenges, feel free to take a look.
 4. [Bank Account](./bank-account/README.md)  ⸱  [[Solution]](./bank-account/src/main/kotlin) ⸱ [[Tests]](./bank-account/src/test/kotlin)
 5. [Linked list](./linked-list/README.md)  ⸱  [[Solution]](./linked-list/src/main/kotlin) ⸱ [[Tests]](./linked-list/src/test/kotlin)
 6. [Pig-Latin](./pig-latin/README.md)  ⸱  [[Solution]](./pig-latin/src/main/kotlin) ⸱ [[Tests]](./pig-latin/src/test/kotlin)
+7. [Anagram](./anagram/README.md)  ⸱  [[Solution]](./anagram/src/main/kotlin) ⸱ [[Tests]](./anagram/src/test/kotlin)
 
 
 ## Links
