@@ -36,6 +36,9 @@ some of the challenges, feel free to take a look.
 13. [Bob](./bob/README.md)  ⸱  [[Solution]](./bob/src/main/kotlin) ⸱ [[Tests]](./bob/src/test/kotlin)
 14. [Raindrops](./raindrops/README.md)  ⸱  [[Solution]](./raindrops/src/main/kotlin) ⸱ [[Tests]](./raindrops/src/test/kotlin)
 15. [Isogram](./isogram/README.md)  ⸱  [[Solution]](./isogram/src/main/kotlin) ⸱ [[Tests]](./isogram/src/test/kotlin)
+16. [Anagram](./anagram/README.md)  ⸱  [[Solution]](./anagram/src/main/kotlin) ⸱ [[Tests]](./anagram/src/test/kotlin)
+
+
 
 ### Medium
 
